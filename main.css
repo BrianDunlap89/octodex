@@ -11,8 +11,10 @@ img {
   padding-bottom: 7px;
 }
 
+
 .octocat img {
-  border: 1px solid     rgba(136,136,136, .5)
+  border: 1px solid     rgba(136,136,136, .5);
+  border-radius: 4px;
 } 
 
 .image-footer {
@@ -62,6 +64,12 @@ a {
   margin-top: 9px;
   margin-left: 2px;
   color: RGBA(206, 204, 202, 1);
+  
+}
+
+.image-number:before {
+  content: "#"
+
 }
 
 ul {
